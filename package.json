@@ -1,0 +1,19 @@
+{
+    "name": "url-shortener-backend",
+    "version": "1.0.0",
+    "description": "A URL Shortener Backend using Node.js, Express, and MongoDB",
+    "type": "module",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "mongodb": "^6.15.0",
+        "mongoose": "^7.8.6",
+        "nanoid": "^5.0.2",
+        "qrcode": "^1.5.4"
+    }
+}
